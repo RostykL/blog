@@ -1,8 +1,8 @@
 import axios from "axios";
 import { GetServerSideProps } from "next";
-import { Container } from "../styled/global";
+import { Container } from "../../styled/global";
 import React, { useState } from "react";
-import { Input, Button, Form, Label, TextArea } from "../styled/styledNewPost";
+import { Input, Button, Form, Label, TextArea } from "../../styled/styledNewPost";
 import { useRouter } from "next/router";
 
 export default function NewPost() {

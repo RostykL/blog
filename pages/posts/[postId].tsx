@@ -1,8 +1,8 @@
 import axios from "axios";
 import { GetServerSideProps } from "next";
-import { Container } from "../styled/global";
+import { Container } from "../../styled/global";
 
-import Post from "../components/Post/Post";
+import Post from "../../components/Post/Post";
 import React from "react";
 
 import Link from "next/link";

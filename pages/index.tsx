@@ -5,9 +5,9 @@ import { useRouter } from 'next/router'
 
 
 import store from "../redux/store";
-import Post from "./components/Post/Post";
+import Post from "../components/Post/Post";
 import React from "react";
-import { Container } from "./styled/global";
+import { Container } from "../styled/global";
 
 export default function Home({ all_posts }: any) {
   const router = useRouter()
