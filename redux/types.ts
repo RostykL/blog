@@ -1,0 +1,1 @@
+export const fetch_posts = 'FETCH_POSTS';
